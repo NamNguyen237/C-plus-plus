@@ -4,14 +4,13 @@
 using namespace std;
 
 int main() {
-    float a;
-    float b;
-    float c;
-    float p;
-    float s;
+    float a, b, c, p, s;
     bool pytago;
     cout << "Nhap so thuc a, b, c: ";
     cin >> a >> b >> c;
+    if ((a+b > c) && (a+c > b) && (b+c > a)) // kiem tra a, b, c co tao thanh tam giac khong
+    {
+
     p = a + b + c;
     cout << "Chu vi cua tam giac do la: " << p << endl;
     s = sqrt((p/2)*((p/2)-a)*((p/2)-b)*((p/2)-c)); // cong thuc heron
@@ -29,6 +28,9 @@ int main() {
     else
         cout << "Tam giac nay la tam giac thuong" << endl;
 
+    }
+    else
+        cout << "\na, b, c khong tao thanh mot tam giac" << endl;
     return 0;
 
 }
