@@ -9,7 +9,7 @@ int main()
     cin >> n;
     string str = to_string(n);
     reverse(str.begin(), str.end());
-    int num = std::stoi(str);
+    int num = stoi(str);
     cout << "\nSo da dao nguoc la: " << num << endl;
     return 0;
 }
