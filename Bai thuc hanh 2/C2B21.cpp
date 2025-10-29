@@ -7,7 +7,7 @@ int main()
     do {
         cout << "\nNhap so n = ";
         cin >> n;
-    } while (n <= 0)
+    } while (n <= 0);
 
 
     float tong = 0;
@@ -18,7 +18,7 @@ int main()
     {
         cout << "\nNhap so thu " << i << ": ";
         cin >> x;
-        tong += x
+        tong += x;
     }
 
     float S = sqrt(tong);

@@ -3,18 +3,18 @@ using namespace std;
 
 int main()
 {
-    int n, tong;
+    int n, so;
     do {
         cout << "\nNhap mot so nguyen duong: ";
         cin >> n;
     } while (n <= 0);
 
-    tong = 0;
+    so = 0;
     while (n != 0)
     {
-        tong = tong + n%10; // lay gia tri hang don vi
+        so = so*10 + (n%10); // lay gia tri hang don vi
         n = n/10;
     }
-    cout << "\nTong cac chu so cua so tren la: " << tong << endl;
+    cout << "\nSo dao nguoc cua so tren la: " << so << endl;
     return 0;
 }
