@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int n, i;
+    int n;
     do {
         cout << "\nNhap so n = ";
         cin >> n;
@@ -11,14 +11,14 @@ int main()
 
 
     float tong = 0;
-    float x;
+    float x, i;
 
 
     for (i = 1; i <= n; i++)
     {
         cout << "\nNhap so thu " << i << ": ";
         cin >> x;
-        tong += x;
+        tong += (x*x);
     }
 
     float S = sqrt(tong);
