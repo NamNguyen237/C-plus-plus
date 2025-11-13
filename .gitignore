@@ -1,3 +1,4 @@
 *.exe
 *.co
 *.o
+/.vscode/
