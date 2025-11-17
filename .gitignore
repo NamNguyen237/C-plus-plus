@@ -1,4 +1,4 @@
 *.exe
 *.co
 *.o
-/.vscode/
+.vscode/
