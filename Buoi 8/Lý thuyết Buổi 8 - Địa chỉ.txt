@@ -1,0 +1,25 @@
+VD: int a = 10;
+Các khái niệm liên quan đến biến:
+- Tên biến
+- Kiểu biến
+- Giá trị của biến
+- Địa chỉ của biến là số thứ tự của byte đầu tiên trong một dãy
+
+Con trỏ
+- Kn: Con trỏ là một biến/hằng có giá trị là địa chỉ của một đối tượng khác
++ Đối tượng: Biến hoặc hàm
++ Cho phép ta tham chiếu đến một biến thông qua địa chỉ
+- Con trỏ là một kiểu dữ liệu đặc biệt
+- Nội dung của con trỏ là Địa chỉ
+Khai báo biến con trỏ:
+- Cú pháp: type *ptr_name
++ type là kiểu dữ liệu của biến mà con trỏ chứa địa chỉ
++ ptr_name là tên của biến trỏ
++ type* là một kiểu dữ liệu con trỏ
++ biến trỏ chưa chỉ đến địa chỉ nào có giá trị NULL
+Các phép toán
+- &<tên biến> cho ta địa chỉ của biến
+- *<tên con trỏ> cho ta giá trị của biến hoặc ô nhớ do con trỏ trỏ tới
+Muốn thay đổi giá trị của tham số truyền vào cho hàm, thì:
+- Tham số hình thức của hàm là con trỏ
+- Tham số thực tương ứng phải là một địa chỉ

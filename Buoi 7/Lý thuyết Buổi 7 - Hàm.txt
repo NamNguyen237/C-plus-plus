@@ -1,0 +1,20 @@
+Cú pháp khai báo hàm:
+<kiểu trả về của hàm><tên hàm>(danh sách tham số)
+{
+(định nghĩa hàm) - thân hàm
+}
+
+Kiểu trả về của hàm:
+- trả về con trỏ (địa chỉ)
+- trả về giá trị: int, long, float, double, char
+- không trả về giá trị: void
+
+Danh sách tham số:
+- số lượng tham số >= 0
+- là dữ liệu input
+- các tham số cách nhau bằng dấu ","
+- mỗi tham số phải khai báo kiểu dữ liệu
+
+Trả về giá trị/Kết thúc hàm:
+- return<biểu thức> với hàm trả về các giá trị cụ thể
+- return; với hàm void
