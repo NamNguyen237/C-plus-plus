@@ -2,4 +2,4 @@
 *.co
 *.o
 .vscode/
-.py
+*.py
