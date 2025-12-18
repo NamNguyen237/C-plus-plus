@@ -34,8 +34,8 @@ void CopyMT(float a[][20], float b[][20], int m, int n)
     for (int i = 0; i<m; i++)
     for (int j = 0; j<n; j++)
         b[i][j] = a[i][j];
-}
-
+} 
+                              
 //Hoán đổi 2 cột ma trận
 void HoanDoiHaiCot(float a[][20], int m, int n, int k, int l)
 {
