@@ -15,7 +15,7 @@ int main()
     for (k = 0; k <= n; k++)
     {
         temp = temp * (x/(k+1));
-        s + s + temp;
+        s = s + temp;
     }
     cout << "\nTong s = " << s << endl;
 
