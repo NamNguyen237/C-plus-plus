@@ -1,0 +1,28 @@
+• Khai báo mảng:
+- Cú pháp: <type> <name>[size1][size2]
+- Ý nghĩa:
++ type: là kiểu dữ liệu của các phần tử trong mảng
++ name: là tên mảng
++ size1, size2: là số nguyên chỉ thành phần mỗi chiều (hàng, cột) (hằng số)
+- VD:
+int matrix[5][10];
+float b[20][20];
+• Truy cập các phần tử của mảng:
+- Cú pháp: <name>[row][column]
+- VD: matrix[0][0], b[5][10]
+- Mỗi phần tử của mảng được xem như một biến:
++ VD: matrix[0][0] = matrix[0][0]+10;
+• Duyệt mảng hai chiều có m hàng n cột:
+for (i=0;i<m;i++)
+for (j=0;j<n;j++)
+    truy cập phần tử a[i][j]
+• Nhập dữ liệu:
+for (i=0;i<m;i++)
+for (j=0;j<n;j++)
+    cin >> a[i][j]
+• Hiển thị:
+for (i=0;i<m;i++)
+for (j=0;j<n;j++)
+    cout << a[i][j]
+
+

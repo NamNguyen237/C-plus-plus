@@ -1,0 +1,23 @@
+Mảng:
+- Khái niệm: Là một dãy liên tiếp các phần tử cùng kiểu trong bộ nhớ
+- Số chiều: Một chiều, hai chiều,... C không giới hạn số chiều
+- Kích thước: Là số các phần tử trong mảng, phải được khai báo tường minh
+
+Mảng một chiều
+• Khai báo mảng:
+- Cú pháp: <type> <name>[size]
+- Ý nghĩa: 
++ <type> là kiểu dữ liệu của các phần tử trong mảng
++ <name> là tên của mảng
++ [size] là kích thước của mảng (số phần tử trong mảng (hằng số))
+- VD:
++ int a[7]
++ char ch[20]
+• Truy cập các phần tử của mảng:
+- Cú pháp: <name>[index]
++ VD: a[0], ch[10]
+- Chỉ số [index]:
++ Được đánh số từ 0 đến size-1
++ Có thể là hằng số, biến, biểu thức
++ Chí số có thể nhận giá trị nguyên hoặc thực
+- Mỗi phần tử của mảng được xem như một biến, VD: a[2] = a[1] + 1;
