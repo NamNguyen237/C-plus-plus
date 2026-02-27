@@ -1,0 +1,19 @@
+Cau 1: 7
+Cau 2: 61ZendVN33
+Cau 3: 1
+Cau 4:  
+Cau 5: 1036
+Cau 6: ReactJS
+Cau 7: Frontend
+Cau 8: ReactJS Native
+Cau 9: Backend
+Cau 10: AdminManager Leader
+Cau 11: 8
+Cau 12: JavaScript
+Cau 13: 2457
+Cau 14: 3
+Cau 15: 0412
+Cau 16: 5-4-2-
+Cau 17: 69
+Cau 18: Sum: 12
+Cau 19: 3765
