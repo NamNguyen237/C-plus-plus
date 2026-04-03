@@ -1,0 +1,44 @@
+đối tượng - object:
+- định nghĩa: là sự kếts hợp giữa DL và PT thao tác trên DL đó
+- mô tả: đối tượng = dữ liệu + phương thức
+
+lớp - class
+- định nghĩa: là một tập các đối tượng có cấu trúc dữ liệu và phương thức giống nhau
+- lớp là mô tả cấu trúc dữ liệu và phương thức tác động lên dữ liệu
+- đối tượng là một thể hiện cụ thể của lớp đó
+
+đóng gói dữ liệu
+- đóng gói về mặt chức năng: người sử dụng chỉ cần biết tên hàm, tham số để truyền vào mà không cần biết các hàm đó làm như thế nào
+- đóng gói về dữ liệu: người sử dụng không được phép truy xuất trực tiếp tới các thành phần dữ liệu
+
+kỹ thuật thừa kế - inheritance
+- định nghĩa: là sự bổ sung thêm các thành phần dữ liệu mới hoặc các phương thức vào lớp đã có để tạo ra mọt lớp tốt hơn, cụ thể hơn
+
+tính đa hình - polymorphime
+- một đối tượng thuộc lớp dẫn xuất sẽ có đầy đủ những đặc điểm của lớp cơ sở
+- tại một thời điểm xử lý lựa chọn đúng được hành vi mình cần thực hiện là gì
+- tự động thay đổi hành động phù hợp
+
+các đặc điểm chủ yếu của LTHĐT
+- tập trung vào dữ liệu
+- chương trình được chia thành các đối tượng
+- CTDL dùng để đặc tả đối tượng
+- các hàm thao tác trên dữ liệu của đối tượng được gắn với câu trúc của dữ liệu đó
+- DL đc đóng gói, che giấu
+- các ĐT tác động, trao đổi với nhau qua các hàm (thông điệp)
+- có thể bổ sung thêm dữ liệu, thao tác mới
+- chương trình đc tiếpcân theo hướng từ dưới lên trên
+
+các ưu điểm của LTHĐT
+- sd lại các lớp đã xây dựng
+- xây dựng phần mềm tuân theo quy trình, do vậy rút ngắn tgian xây dựng hệ thóng
+- nguyên lý đống gói hay che giấu thông tin giúp ng lập trình tạo ra những chương trình an toàn
+- cách tiếp cận tập trung vào dữ liệu, giúp ta xây dựng các mô hình chi tiết và dễ  dàng
+- dễ  dàng nâng cấp, mở rộng
+- có thể xây dựng đc ánh xạ các đối tượng của bài toán vào đối tượng chương trình
+- việc truyền thông điệp giữa các đối tượng là cho  việc mô tả giao diện với các hệ thống bên ngoài trở nên đơn giản
+- có thể quản lý được độ phức tạp của những sản phẩm phần mềm
+
+các ứng dụng của LTHĐT
+- thiết kế giao diện với ng sd (windows)
+- các hệ thống tgian thực
