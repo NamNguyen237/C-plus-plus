@@ -1,0 +1,27 @@
+–Định nghĩa lớp Time
+
+
+–Dữ liệu gồm 3 thành phần số nguyên
+
+
+•Second
+
+
+•Minute
+
+
+•Hour
+
+
+–Các hàm thành phần:
+
+
+•Nhập,hiển thị
+
+
+•Set, giờ, phút, giây
+
+
+•Tick
+– tăng giờ hiện tại lên 1 giây
+Lưu ý: Sinh viên sử dụng khai báo lớp trong tệp time.h để định nghĩa các hàm thành phần trong lớp.
