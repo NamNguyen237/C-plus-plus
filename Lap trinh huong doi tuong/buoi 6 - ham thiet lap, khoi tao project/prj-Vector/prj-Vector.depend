@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1775793654 source:c:\c-plus-plus\lap trinh huong doi tuong\prj-vector\main.cpp
+	<iostream>
+	"vector.h"
+
+1775791462 c:\c-plus-plus\lap trinh huong doi tuong\prj-vector\vector.h
+	<bits/stdc++.h>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1775788634 source:c:\c-plus-plus\lap trinh huong doi tuong\prj-phanso\main.cpp
+	<iostream>
+	"phanso.h"
+
+1775788040 source:c:\c-plus-plus\lap trinh huong doi tuong\prj-phanso\phanso.cpp
+	"phanso.h"
+	<bits/stdc++.h>
+
+1775788224 c:\c-plus-plus\lap trinh huong doi tuong\prj-phanso\phanso.h
+	<bits/stdc++.h>
+
