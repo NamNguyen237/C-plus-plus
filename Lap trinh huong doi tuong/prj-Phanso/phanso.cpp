@@ -67,32 +67,48 @@ Phanso & Phanso::Toigian() { //tra ve tham chieu
     mau /= ucln;
     return *this;
 }
-Phanso Phanso::Tong(Phanso ps) {
+
+
+Phanso Phanso::operator+(Phanso ps) { //tong
     Phanso kq;
     kq.tu = tu * ps.mau + ps.tu * mau;
     kq.mau = mau * ps.mau;
     //kq.Toigian2();//toi gian trong ham luon
     return kq;
 }
-Phanso Phanso::Hieu(Phanso ps) {
+Phanso Phanso::operator-(Phanso ps) { //hieu
     Phanso kq;
     kq.tu = tu * ps.mau - ps.tu * mau;
     kq.mau = mau * ps.mau;
     //kq.Toigian2();//toi gian trong ham luon
     return kq;
 }
-Phanso Phanso::Tich(Phanso ps) {
+Phanso Phanso::operator*(Phanso ps) { //tich
     Phanso kq;
     kq.tu = tu * ps.tu;
     kq.mau = mau * ps.mau;
     //kq.Toigian2();//toi gian trong ham luon
     return kq;
 }
-Phanso Phanso::Thuong(Phanso ps) {
+Phanso Phanso::operator/(Phanso ps) { //thuong
     Phanso kq;
     kq.tu = tu * ps.mau;
     kq.mau = mau * ps.tu;
     //kq.Toigian2();//toi gian trong ham luon
     return kq;
+}
+
+bool Phanso::operator==(Phanso ps){
+    return (tu*ps.mau == mau*ps.tu);
+}
+bool Phanso::operator!=(Phanso ps){
+    //return (tu*ps.mau != mau*ps.tu);
+    return !(*this == ps);
+}
+bool Phanso::operator>=(Phanso ps){
+    return (tu*ps.mau >= mau*ps.tu);
+}
+bool Phanso::operator<(Phanso ps){
+    return !(*this >= ps);
 }
 
