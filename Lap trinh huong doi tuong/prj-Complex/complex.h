@@ -9,11 +9,16 @@ class Sophuc {
     public:
         void Nhap();
         void Hienthi();
+        /*
         Sophuc Cong(Sophuc z);
         Sophuc Tru(Sophuc z);
         Sophuc Nhan(Sophuc z);
         Sophuc Chia(Sophuc z);
-
+        */
+        Sophuc operator+(Sophuc z);
+        Sophuc operator-(Sophuc z);
+        Sophuc operator*(Sophuc z);
+        Sophuc operator/(Sophuc z);
 };
 
 #endif // COMPLEX_H

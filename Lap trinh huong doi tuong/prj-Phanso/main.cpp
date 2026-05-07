@@ -41,6 +41,15 @@ int main()
     if(ps1>=ps2) cout << "\nps1 >= ps2";
     else cout << "\nps1 < ps2";
 
+    if (ps1<ps2) cout << "\nps1 < ps2";
+    else cout << "\nps1 >= ps2";
+
+    if (ps1>ps2) cout << "\nps1 > ps2";
+    else cout << "\nps1 <= ps2";
+
+    if (ps1 <= ps2) cout << "\nps1 >= ps2";
+    else cout << "\bps1 < ps2";
+
     return 0;
 }
 

@@ -105,10 +105,20 @@ bool Phanso::operator!=(Phanso ps){
     //return (tu*ps.mau != mau*ps.tu);
     return !(*this == ps);
 }
+
 bool Phanso::operator>=(Phanso ps){
     return (tu*ps.mau >= mau*ps.tu);
 }
+bool Phanso::operator>(Phanso ps){
+    return ((*this >= ps) && (*this != ps));
+}
+
 bool Phanso::operator<(Phanso ps){
     return !(*this >= ps);
 }
+bool Phanso::operator<=(Phanso ps){
+    return ((*this < ps) && (*this == ps));
+}
+
+
 

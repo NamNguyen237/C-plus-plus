@@ -37,7 +37,7 @@ void Vector::Hienthi(char *s){
     cout << endl;
 }
 Vector::~Vector(){
-    delete(a);
+    delete[] a;
 }
 float Vector::Tinhchuan(){
     float tongbinhphuong = 0;
@@ -46,9 +46,10 @@ float Vector::Tinhchuan(){
     }
     return sqrt(tongbinhphuong);
 }
-Vector Vector::Cong(const Vector &v)
+
+Vector Vector::operator+(const Vector &v) //cong
 {
-    if (n == v.n)
+    if (n == v.n) //check 2 vector cung chieu
     {
         Vector kq(n);
         for (int i = 0; i < n; i++)
@@ -57,10 +58,10 @@ Vector Vector::Cong(const Vector &v)
         return kq;
     }
     else
-        return Vector(0);
+        return Vector(0); //khi 2 vector ko cung chieu, tra ve vector 0
 }
-
-Vector Vector::Tru(const Vector &v){
+/*
+Vector Vector::operator-(const Vector &v){ //tru
     Vector temp;
     temp.n = n;
     temp.a = new float[n];
@@ -69,8 +70,7 @@ Vector Vector::Tru(const Vector &v){
     }
     return temp;
 }
-
-Vector Vector::TichVoHuong(const Vector &v){
+Vector Vector::operator*(const Vector &v){ //tich vo huong (vector nhan vector)
     Vector temp;
     temp.n = n;
     temp.a = new float[n];
@@ -80,14 +80,119 @@ Vector Vector::TichVoHuong(const Vector &v){
     return temp;
 }
 
-Vector Vector::NhanSoThuc(float x){
-    Vector temp;
-    temp.n = n;
-    temp.a = new float[n];
+*/
+//Chua lai:
+Vector Vector::operator-(const Vector &v){ //tru
+    if (n == v.n) //check 2 vector cung chieu
+    {
+        Vector kq(n);
+        for (int i = 0; i < n; i++)
+            kq.a[i] = a[i] - v.a[i];
+
+        return kq;
+    }
+    else
+        return Vector(0); //khi 2 vector ko cung chieu, tra ve vector 0
+}
+
+float Vector::operator*(const Vector &v){
+    if (n==v.n) {
+        float s = 0;
+        for (int i = 0; i < n; i++)
+            s += a[i]*v.a[i];
+        return s;
+    }
+    else return -FLT_MAX; //am vo cung
+
+}
+
+
+Vector Vector::operator*(float x){ //nhan so thuc
+    //Vector temp;
+    //temp.n = n;
+    //temp.a = new float[n];
+    Vector temp(n);
     for(int i = 0; i < n; i++){
         temp.a[i] = a[i] * x;
     }
     return temp;
 }
 
+Vector operator*(float x, const Vector &v) {
+    Vector kq(v.n);
+    for (int i = 0; i < v.n; i++)
+    {
+        kq.a[i] = v.a[i] * x;
+    }
+    return kq;
+}
+
+Vector Vector::operator/(float x) {
+    //Vector temp;
+    //temp.n = n;
+    //temp.a = new float[n];
+    Vector temp(n);
+    for(int i = 0; i < n; i++){
+        temp.a[i] = a[i] / x;
+    }
+    return temp;
+}
+
+bool Vector::operator==(const Vector &v) {
+    if (n == v.n)
+    {
+        for (int i = 0; i < n; i++) if (a[i] != v.a[i]) return false;
+        return true;
+    }
+    return false;
+}
+
+bool Vector::operator!=(const Vector &v) {
+    return !(*this == v);
+}
+
+
+
+//chồng phép hàm gán
+Vector & Vector::operator=(const Vector &v) {
+    delete(a);
+    n = v.n;
+    a = new float[n];
+    for (int i = 0; i < n; i++)
+        a[i] = v.a[i];
+    return *this;
+}
+
+Vector & Vector::operator+=(const Vector &v) {
+    if (n==v.n)
+    {
+       for (int i = 0; i < n; i++) a[i] += v.a[i];
+    }
+    return *this;
+}
+
+
+//chồng phép hàm tăng-giảm đơn vị
+Vector & Vector::operator++() {
+    for (int i = 0; i < n; i++) a[i]++;
+    return *this;
+}
+Vector & Vector::operator++(int) {
+    Vector temp;
+    temp = *this;
+    for (int i = 0; i < n; i++) a[i]++;
+    return temp;
+}
+
+//chồng phép hàm xuất-nhập
+//cout
+ostream & operator<<(ostream & out, const Vector &v) {
+    out << v.Data;
+    return out;
+}
+//cin
+istream & operator>>(istream & in, Vector &V) {
+    in >> v.Data;
+    return in;
+}
 
