@@ -1,0 +1,11 @@
+Câu 1. a, c
+Câu 2. a, b, d
+Câu 3. a, d
+Câu 4. a, b, c
+Câu 5. c
+Câu 6. b, c
+Câu 7. b, e
+Câu 8. b, d, e
+Câu 9. c, d
+Câu 10. a, d
+Câu 11. a, b, c, d
