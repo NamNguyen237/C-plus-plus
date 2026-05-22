@@ -33,6 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="point.cpp" />
+		<Unit filename="point.h" />
+		<Unit filename="threedimpoint.cpp" />
+		<Unit filename="threedimpoint.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

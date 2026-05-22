@@ -1,7 +1,30 @@
-#include <bits/stdc++.h>
 #include "point.h"
+#include "threedimpoint.h"
+#include <bits/stdc++.h>
 using namespace std;
+int main()
+{
+    Point A;
+    A.Show("A");
+    A.Init("A");
+    A.Show("A");
 
+    ThreeDimPoint T3D(1,2,3);
+    T3D.Xuat("T3D");
+    T3D.Nhap("T3D");
+    T3D.Xuat("T3D");
+
+    cout << "Khoang cach toi O(0,0,0): ";
+    cout << T3D.KhoangCachO();
+
+    ThreeDimPoint p3(4,5,6);
+    cout << "Khoang cach toi ";
+    p3.Xuat(""); cout <<": ";
+    cout << T3D.KhoangCach(p3);
+
+    return 0;
+}
+/*
 int main()
 {
     Point A, B(3, 4);
@@ -21,4 +44,4 @@ int main()
     A.Distance(B);
 
     return 0;
-}
+}*/

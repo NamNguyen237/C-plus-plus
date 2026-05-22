@@ -3,18 +3,18 @@
 using namespace std;
 Point::Point(float a, float b)
 {
-    cout << "\nHTL tai " << this;
+    //cout << "\nHTL tai " << this;
     x = a;
     y = b;
 }
 Point::Point(const Point &p)
 {
-    cout << "\nHTL sao chep tai " << this;
+    //cout << "\nHTL sao chep tai " << this;
     x = p.x;
     y = p.y;
 }
 Point::~Point(){
-    cout << "\nHHB tai " << this;
+    //cout << "\nHHB tai " << this;
 }
 void Point::Init(const char *s)
 {
@@ -52,8 +52,12 @@ bool Point::coincide(const Point &p)//ham kiem tra 2 diem trung nhau
     if ((x == p.x) && (y==p.y)) return true;
     return false;
 }
+/*
 bool coincide(const Point &p1, const Point &p2) //ham tu do la ban cua lop point
 {
     if ((p1.x == p2.x) && (p1.y==p2.y)) return true;
     return false;
-}
+}*/
+
+
+
