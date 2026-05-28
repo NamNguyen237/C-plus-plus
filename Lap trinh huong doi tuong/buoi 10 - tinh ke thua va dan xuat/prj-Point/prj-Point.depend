@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1779421030 source:c:\c-plus-plus\lap trinh huong doi tuong\prj-point\main.cpp
+	"point.h"
+	"threedimpoint.h"
+	<bits/stdc++.h>
+
+1779419536 c:\c-plus-plus\lap trinh huong doi tuong\prj-point\point.h
+	<bits/stdc++.h>
+
+1779420782 c:\c-plus-plus\lap trinh huong doi tuong\prj-point\threedimpoint.h
+	<bits/stdc++.h>
+	"point.h"
+
+1779421117 source:c:\c-plus-plus\lap trinh huong doi tuong\prj-point\point.cpp
+	<bits/stdc++.h>
+	"point.h"
+
+1779421064 source:c:\c-plus-plus\lap trinh huong doi tuong\prj-point\threedimpoint.cpp
+	"point.h"
+	"threedimpoint.h"
+	<bits/stdc++.h>
+
+1779421030 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\main.cpp
+	"point.h"
+	"threedimpoint.h"
+	<bits/stdc++.h>
+
+1779419536 c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\point.h
+	<bits/stdc++.h>
+
+1779420782 c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\threedimpoint.h
+	<bits/stdc++.h>
+	"point.h"
+
+1779421117 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\point.cpp
+	<bits/stdc++.h>
+	"point.h"
+
+1779421163 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\threedimpoint.cpp
+	"point.h"
+	"threedimpoint.h"
+	<bits/stdc++.h>
+
+1779988648 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\colorpoint.cpp
+	"colorpoint.h"
+	<iostream>
+	<cstring>
+
+1779988341 c:\c-plus-plus\lap trinh huong doi tuong\buoi 10 - tinh ke thua va dan xuat\prj-point\colorpoint.h
+	<iostream>
+	"point.h"
+
