@@ -63,7 +63,7 @@ public:
             return;
         }
 
-        cout << goc->dulieu << " ";
+        cout << goc -> dulieu << " ";
         duyetTruoc(goc->trai);
         duyetTruoc(goc->phai);
     }
@@ -75,8 +75,21 @@ public:
     }
 
     void duyetGiua(Nut *goc) {
-        if (goc -> trai == nullptr)
+        if (goc -> trai == nullptr || goc -> phai == nullptr) {
             cout << goc -> dulieu << " ";
+        }
+
+    }
+
+    void DemSoLonHon10(Nut *goc, int &dem) {
+        if (goc == nullptr) {
+            return;
+        }
+        if (goc -> dulieu > 10) {
+            dem++;
+        }
+        DemSoLonHon10(goc->trai, dem);
+        DemSoLonHon10(goc->phai, dem);
     }
 };
 
@@ -86,36 +99,19 @@ int main() {
 
     // Tạo các node
     T->goc = new Nut(5); //tạo nút có giá trị 5
-
-    /*
-    Nut* a = new Nut(1);
-    Nut* b = new Nut(2);
-    Nut* c = new Nut(3);
-    Nut* d = new Nut(4);
-    */
-
-    // Liên kết cây
-    //T ->chenTrai (T->goc ,10); //thêm nút giá trị 10 vào bên trái gốc
-    //T -> chenTrai (T->goc -> trai, 12); //thêm nút giá trị 12 vào bên trái 10
-    //T->goc->phai = b;
-    /*
-    T -> chenTrai(T -> goc, 7);
-    T -> chenPhai(T -> goc, 9);
-    T -> chenTrai(T -> goc -> phai, 8);
-    T -> chenPhai(T -> goc -> phai, 6);
-    */
-    //a->trai = d;
-    //b->phai = c;
-
     T -> chenTrai(T -> goc, 15);
     T -> chenPhai(T -> goc, 30);
     T -> chenPhai(T -> goc -> trai, 40);
     T -> chenTrai(T -> goc -> phai, 29);
 
-    cout << "Duyet truoc: ";
-    T->duyetTruoc(T->goc);
+    cout << "\nDuyet truoc: ";
+    T -> duyetTruoc(T -> goc);
 
-    cout << "Dem so nut: "; cout << T -> demSoNut(T->goc);
+    cout << "\nDem so nut: "; cout << T -> demSoNut(T->goc);
+
+    int dem = 0;
+    T -> DemSoLonHon10(T->goc, dem);
+    cout << "\nSo nut > 10: "; cout << dem;
 
     delete T;
 
