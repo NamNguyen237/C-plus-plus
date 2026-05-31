@@ -32,9 +32,29 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="box.cpp" />
+		<Unit filename="box.h" />
+		<Unit filename="circle.cpp" />
+		<Unit filename="circle.h" />
+		<Unit filename="cone.cpp" />
+		<Unit filename="cone.h" />
+		<Unit filename="cube.cpp" />
+		<Unit filename="cube.h" />
+		<Unit filename="cylinder.cpp" />
+		<Unit filename="cylinder.h" />
+		<Unit filename="diamond.cpp" />
+		<Unit filename="diamond.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="rectangle.cpp" />
+		<Unit filename="rectangle.h" />
 		<Unit filename="shape.h" />
+		<Unit filename="sphere.cpp" />
+		<Unit filename="sphere.h" />
+		<Unit filename="square.cpp" />
+		<Unit filename="square.h" />
 		<Unit filename="threedimshape.h" />
+		<Unit filename="triangle.cpp" />
+		<Unit filename="triangle.h" />
 		<Unit filename="twodimshape.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

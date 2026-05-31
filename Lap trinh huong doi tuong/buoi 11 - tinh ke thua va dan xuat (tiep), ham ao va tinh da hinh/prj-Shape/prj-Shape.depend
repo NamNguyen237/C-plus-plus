@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1780199359 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\box.cpp
+	<iostream>
+	<cmath>
+	"box.h"
+
+1780199987 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\box.h
+	<iostream>
+	"threedimshape.h"
+
+1780024979 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\threedimshape.h
+	"shape.h"
+	<iostream>
+
+1780199968 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\shape.h
+
+1780026247 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\circle.cpp
+	"circle.h"
+	<iostream>
+	<cmath>
+
+1780026242 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\circle.h
+	"twodimshape.h"
+
+1780024981 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\twodimshape.h
+	"shape.h"
+	<iostream>
+
+1780200147 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\cone.cpp
+	<iostream>
+	<cmath>
+	"cone.h"
+
+1780199993 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\cone.h
+	<iostream>
+	<cmath>
+	"threedimshape.h"
+
+1780199898 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\cube.cpp
+	<iostream>
+	<cmath>
+	"cube.h"
+
+1780199979 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\cube.h
+	<iostream>
+	<cmath>
+	"threedimshape.h"
+
+1780026089 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\cylinder.cpp
+	"cylinder.h"
+	<iostream>
+	<cmath>
+
+1780026242 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\cylinder.h
+	"threedimshape.h"
+
+1780199998 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\main.cpp
+	<iostream>
+	"shape.h"
+	"twodimshape.h"
+	"threedimshape.h"
+	"circle.h"
+	"cylinder.h"
+	"square.h"
+	"triangle.h"
+	"rectangle.h"
+	"diamond.h"
+	"sphere.h"
+	"cube.h"
+	"box.h"
+	"cone.h"
+
+1780197303 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\square.h
+	"twodimshape.h"
+
+1780197736 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\triangle.h
+	<iostream>
+	"twodimshape.h"
+
+1780197645 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\rectangle.h
+	"twodimshape.h"
+
+1780199973 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\diamond.h
+	<iostream>
+	<cmath>
+	"twodimshape.h"
+
+1780199983 c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\sphere.h
+	<iostream>
+	<cmath>
+	"threedimshape.h"
+
+1780197761 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\rectangle.cpp
+	<iostream>
+	<cmath>
+	"rectangle.h"
+
+1780200002 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\sphere.cpp
+	<iostream>
+	<cmath>
+	"sphere.h"
+
+1780197729 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\square.cpp
+	<iostream>
+	<cmath>
+	"square.h"
+
+1780197750 source:c:\c-plus-plus\lap trinh huong doi tuong\buoi 11 - tinh ke thua va dan xuat (tiep), ham ao va tinh da hinh\prj-shape\triangle.cpp
+	<iostream>
+	<cmath>
+	"triangle.h"
+
